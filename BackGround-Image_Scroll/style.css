@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+
+.bg-image{
+    height: 100vh;
+    width: 100%;
+    font-size: 30px;
+    background: url("https://img.freepik.com/free-photo/old-rusty-fishing-boat-slope-along-shore-lake_181624-44902.jpg?w=740&t=st=1725342092~exp=1725342692~hmac=988a9407f0699fbb8bae4953c90bbed696fdc54d75b1adf2dc651f1356733204");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 160%;
+
+}
+.container{
+    padding: 100px;
+    text-align: justify;
+}
+@media(max-width: 50px){
+    .container{
+        padding: 10px;
+    }
+    
+}
